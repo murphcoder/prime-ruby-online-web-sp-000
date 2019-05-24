@@ -4,11 +4,12 @@ def prime?(n)
     return true
   else
     while d < n
-    if n % d == 0
-      return false
-      break
-    else
-      d += 1
+      if n % d == 0
+        return false
+        break
+      else
+        d += 1
+      end
     end
   end
   return true
