@@ -11,5 +11,6 @@ def prime?(n)
       break
     end
     i += 6
-    
+  end
+  return true
 end
