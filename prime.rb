@@ -3,7 +3,7 @@ def prime?(n)
   if n == 2 || n == 1
     return true
   else
-    while d < n
+    while d < n do
       if n % d == 0
         return false
       else
