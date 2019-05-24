@@ -5,6 +5,5 @@ def prime?(n)
     elsif n % 2 == 0
     return false
   end
-  while 
-
-      
+  while n % d != 0 do
+    
