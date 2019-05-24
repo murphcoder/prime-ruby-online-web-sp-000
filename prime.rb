@@ -6,7 +6,6 @@ def prime?(n)
     while d < n
       if n % d == 0
         return false
-        break
       else
         d += 1
       end
